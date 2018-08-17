@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Open+Sans');
+
+body {
+  padding: 40px; 
+  font-family: 'Open Sans', sans-serif;
+
+}
+.well{
+  background-color:  #cccc66;
+}
+h1 {
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+  font-size: 40pt;
+  color: white;
+}
+#show_status {
+  padding: 10px;
+}
+#results .row{
+  padding: 10px;
+}
+.logo{
+  padding-top: 10px;
+}
+.logo img{
+  width: 100px;
+  height: 100px;
+}
+.Offline .fa{
+  color : red;
+}
+.Online .fa{
+  color: green;
+}
+.Closed .fa{
+  color: white;
+}
+.name{
+  font-size: 11pt;
+  font-weight: bold;
+}
+.game {
+  padding-top: 10px;
+}
+.bio {
+  padding-top: 5px;
+}
+.removed{
+  display: none !important;
+}
+.btn{
+  color: white;
+}
+.channel{
+  border: 5px solid white;
+  background-color: #ffff99;
+  border-bottom-left-radius: 2em;
+  border-bottom-right-radius: 2em;
+  border-top-left-radius: 2em;
+  border-top-right-radius: 2em;
+}
+.btn {
+  background-color: #cccc00;
+  border: 1px solid white;
+  border-bottom-left-radius: 2em;
+  border-bottom-right-radius: 2em;
+  border-top-left-radius: 2em;
+  border-top-right-radius: 2em;
+}
